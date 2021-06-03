@@ -38,9 +38,13 @@ hr{
 h2{  
     font-family: 'Open Sans Condensed', sans-serif;
 }
-main section div:nth-child(3) img{
+/* main section div:nth-child(3) img{
     background-color: indigo;
     width:100%
 
+} */
+
+.inpit{
+    padding: 30%;
 }
 
