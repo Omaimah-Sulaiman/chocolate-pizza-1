@@ -34,7 +34,7 @@ header div div p{
 
 hr{
     width: 100%;
-    border-top: 6px dotted gray;
+    border-top: 6px dashed gray;
 
 }
 
@@ -77,11 +77,7 @@ main section p{
     color: grey;
 }
 
-hr{
-    width: 100%;
-    border-top: 6px dotted gray;
 
-} 
 
 
 
@@ -142,7 +138,8 @@ footer div h2 {
     margin-right: 10px
   }
   footer div h2:after {
-    margin-left: 10px
+    margin-left: 10px;
+   
   }
  footer p{
      text-align: center;
