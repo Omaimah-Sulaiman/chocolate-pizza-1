@@ -15,7 +15,6 @@ header div div,#rightHeder{
 }
 #headerImg{
        float: right; 
-       /* width: 20%; */
        margin:  2.5%;
 }
 header div div h1{
@@ -42,29 +41,6 @@ hr{
 h2{  
     font-family: 'Open Sans Condensed', sans-serif;
  }
-/* main section div:nth-child(3) img{
-    background-color: indigo;
-    width:100% */
-
-
-
-/* } 
-
-main section div :nth-child(2) img{
-    float: right;
-    width: 50%;
-}
-main section div:first-child {
-    /* display: inline-block; */
-    /* float: left;
-    width:90%; */
-    /* padding-top: 50%; */
-/* 
-}
-
-main section div :nth-child(2) {
-    display: inline-block;
-} */
 
 #mainP {
     text-align: center;
@@ -75,11 +51,10 @@ main section div :nth-child(2) {
     padding-left: 30%;
 }
 
-#form   {
-    background-image: url('/img/list-bg.png');
-}
+
 
 #form{
+    background-image:url("/img/list-bg.png");
     font-family: 'Stint Ultra Condensed', cursive;
     color: grey;
 }
@@ -88,43 +63,64 @@ hr{
     width: 100%;
     border-top: 6px dotted gray;
 
-} */
+} 
 
-.inpit{
+.input{
     padding: 30%;
 }
 
-#vann{
-    color: grey;
-    font-family: 'Stint Ultra Condensed', cursive;
-}
 
-.P{
-    color: grey;
-    font-family:'Stint Ultra Condensed', cursive; 
+
+article{
+    position: relative;
     
 }
-article div h3 {
-    display: inline-block;
-     margin: 0%; 
+article div:first-child{
+    float: left;
+    /* background-color: lawngreen;    */
+}
+article div :nth-child(2){
+    float: left;
+    /* background-color: lawngreen;  */
+    width: 40%;
+    
 }
 
+article div:last-child{
+    float: right;
+    /* background-color: indigo; */
+    padding:5%;
+    width:40% ;
+}
 
+article div h3{
+    margin: 0%; 
+    font-family: 'Stint Ultra Condensed', cursive;
+  
+}
 
 article div p{
-    padding-left:8% ;
     margin: 0%;
+    font-size: 50%;
+    width:100% ;
+    color: gray;
+    font-family:'Stint Ultra Condensed', cursive;
+   
+    
 }
 
 button{
     background-color: brown;
     color: white;
-    float: right;
-    width: 20%;
-    padding: 10px;
+    width: 100%;
+    padding: 20px;
+    position:relative
+   
 }
 
-
+footer{
+    clear: both;
+}
 footer div h2 {
     display: flex;
     flex-direction: row;
